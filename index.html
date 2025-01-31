@@ -26,12 +26,12 @@
             <div>
                 <img src="c2-assets/logo-header.png" alt="">
             </div>
-            <div class="flex gap-8 ">
+            <div class="hidden lg:flex gap-8 ">
                 <p>Product</p>
                 <p>Services</p>
                 <p>Contact us</p>
             </div>
-            <div>
+            <div class="hidden lg:block">
                 <i class="fa-solid fa-magnifying-glass pr-3 text-xl"></i>
                 <i class="fa-solid fa-cart-shopping pr-3 text-xl"></i>
                 <button class="border-green-400 border-2 rounded-lg px-5 py-1">Login</button>
@@ -46,7 +46,7 @@
                 <div >
                     <h3 class="text-6xl font-semibold">Freshness <span class="text-[#179800]">You Can <br>
                         Count</span> On, Prices You’ll Love!</h3>
-                        <p class="text-xl text-[#111111] py-8">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+                        <p class="text-xl text-[#111111] py-8 px-2">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
                 </div>
                 <div>
                     <img class="mx-auto h-100" src="c2-assets/hero-vegetables.png" alt="">
@@ -57,11 +57,30 @@
 
 
     </header>
-    <main class="mt-32">
-        <section>
-            <p>Hello</p>
-
-        </section>
+    <main class="mt-32 max-w-screen-xl mx-auto">
+     <!-- services starts -->
+      <section >
+        <h3 class="text-[#179800] text-3xl font-semibold pb-12">Services</h3>
+        <!-- service card -->
+         <div class="lg:flex gap-6 text-center ">
+            <div class="bg-[#EFEBE3] rounded-lg mx-3">
+                <img class="bg-white rounded-full p-3 mx-auto mt-5" src="c2-assets/service.png" alt="">
+                <h4 class=" pt-3 font-semibold text-2xl text-[#111111]">24/7 Services   </h4>
+                <p class="p-5 text-xl font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+            <div class="bg-[#EFEBE3]  rounded-lg mx-3">
+                <img class="bg-white rounded-full p-3 mx-auto mt-5" src="c2-assets/delivery.png" alt="">
+                <h4 class=" pt-3 font-semibold text-2xl text-[#111111]">Fast Delivery </h4>
+                <p class=" p-5 text-xl font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+            <div class="bg-[#EFEBE3]  rounded-lg mx-3">
+                <img class="bg-white rounded-full p-3 mx-auto mt-5" src="c2-assets/healthy.png" alt="">
+                <h4 class=" pt-3 font-semibold text-2xl text-[#111111]">Healthy Products  </h4>
+                <p class=" p-5 text-xl font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+            </div>
+            
+         </div>
+      </section>
         
     </main>
     <footer></footer>
